@@ -5,6 +5,7 @@ import './App.css';
 import Bashitha from './bashitha';
 import Home from './Home';
 import Nipuna from './nipuna';
+import { Nirmal } from './Nirmal';
 // import bashitha from './bashitha.jsx'
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function App() {
         <Route path="/bashitha" element={<Bashitha/>} />
         <Route path="/nipuna" element={<Nipuna/> }/>
         <Route path="/anjula" element={<Anjula/> }/>
-
+        <Route path="/Nirmal" element={<Nirmal/> }/>
          <Route path="/" element={<Home/> }/>
 
 
